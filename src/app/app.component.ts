@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'core';
+  direction : 'ltl' | 'rtl' = 'ltl'
 }

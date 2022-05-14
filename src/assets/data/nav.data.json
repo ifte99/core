@@ -1,0 +1,107 @@
+[
+   {
+      "id": "1",
+      "isDropdown": true,
+      "label": "Products",
+      "icon": "",
+      "slug": null,
+      "dropDownTarget":"Products",
+      "isAdmin":"false",
+      "menuItems": [
+         {
+            "id": "4",
+            "label": "CRM",
+            "description": "Entrepreneurs, Sales Teams",
+            "icon": "<i class='fa-solid fa-briefcase'></i>",
+            "slug": null,
+            "menuItems": []
+         },
+         {
+            "id": "5",
+            "label": "ERP",
+            "description": "Simplify production cycle",
+            "icon": "../src/assets/images/crm.svg",
+            "slug": null,
+            "menuItems": []
+         },
+         {
+            "id": "6",
+            "label": "HR",
+            "description": "Recruitments, Appraisal, Payroll",
+            "icon": "",
+            "slug": null,
+            "menuItems": []
+         },
+         {
+            "id": "7",
+            "label": "SME",
+            "description": "Shaping future of Small businesses",
+            "icon": "",
+            "slug": null,
+            "menuItems": []
+         },
+         {
+            "id": "8",
+            "label": "E-Invoice",
+            "description": "help entrepreneurs",
+            "icon": "",
+            "slug": null,
+            "menuItems": []
+         },
+         {
+            "id": "9",
+            "label": "Media",
+            "description": "Discover new trend",
+            "icon": "",
+            "slug": "/app/dashboard",
+            "menuItems": []
+         },
+         {
+            "id": "10",
+            "label": "Accounting",
+            "description": "Do financial with smart insights",
+            "icon": "",
+            "slug": null, 
+            "menuItems": []
+         }
+
+
+         
+      ]
+     
+   },
+   {
+      "id": "2",
+      "isDropdown": false,
+      "label": "Plan & Pricing",
+      "icon": "",
+      "slug": null,
+      "dropDownTarget":"Plan & Pricing",
+      " isAdmin":"false",
+      "menuItems": []
+   },
+   {
+      "id": "3",
+      "isDropdown": false,
+      "label": "Contact Us",
+      "icon": "",
+      "slug": null,
+      "dropDownTarget":"Contact Us",
+      "isAdmin":"false",
+      "menuItems": [
+         
+      ]
+   },
+   {
+      "id": "11",
+      "isDropdown": false,
+      "label": "Ar",
+      "icon": "",
+      "slug": null,
+      "dropDownTarget":"Ar",
+      "isAdmin":"false",
+      "menuItems": [
+         
+      ]
+   }
+]
