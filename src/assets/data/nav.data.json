@@ -20,7 +20,7 @@
             "id": "5",
             "label": "ERP",
             "description": "Simplify production cycle",
-            "icon": "../src/assets/images/crm.svg",
+            "icon": "",
             "slug": null,
             "menuItems": []
          },

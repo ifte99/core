@@ -1,0 +1,134 @@
+
+
+/*footer*/
+
+#footer{padding:80px 0;}
+
+#footer .heading{margin-bottom:50px; font-size:1.2rem;}
+
+#footer p + .faico{margin-top:30px;}
+
+#footer input, #footer button{border:1px solid;}
+
+#footer input{display:block; width:100%; padding:12px 15px;}
+
+#footer button{padding:10px 15px 12px; font-size:1rem;}
+
+#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; }
+
+#footer .linklist li:last-child{margin:0; padding:0; border:none;}
+
+#footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
+
+#footer .linklist li, #footer .linklist li::after{clear:both;}
+
+/* Grid - RS-MQF 1140 V.2 - https://www.os-templates.com/free-basic-html5-templates/rs-mqf-1140
+
+- -------------------------------------------------------------------------------------------------------------- */
+
+.one_quinter{ float:left; margin:0 0 0 4%; list-style:none;}
+
+.first{margin: left 20px; clear:left;}
+
+.one_quinter{width:15%;}
+
+.wrapper{display:block; position:relative; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
+
+/*heading*/
+
+body, input, textarea, select{font-family:Verdana, Geneva, sans-serif;}
+
+h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
+
+.divide{
+    padding-bottom: 80px;
+}
+
+/*Generalise
+- -------------------------------------------------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 4%; font-size:1.4rem; line-height:normal; font-weight:normal; text-transform:capitalize;}
+
+.heading.nospace{margin-bottom:0; margin-left:20px;}
+
+address{font-style:normal; font-weight:normal;}
+
+hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
+
+.font-xs{font-size:.8rem;}
+
+.font-x1{font-size:1.2rem;}
+
+.font-x2{font-size:1.8rem; line-height:normal;}
+
+.font-x3{font-size:2.8rem; line-height:normal;}
+
+/*
+
+The "hoc" class is a generic class used to centre a containing element horizontally
+
+It should be used in conjunction with a second class or ID
+
+- /
+
+.hoc{display:block; margin:0 auto;}
+
+/* HTML 5 Overrides
+
+- -------------------------------------------------------------------------------------------------------------- */
+
+address, article, aside, figcaption, figure, footer, header, main, nav, section{display:block; margin:0; padding:0;}
+
+/* Font Awesome Social Icons
+
+- -------------------------------------------------------------------------------------------------------------- */
+
+.faico{ margin-left: 370px; padding:0; list-style:none;}
+
+.faico li{display:inline-block; margin:0 0 0 0; padding:0; line-height:normal;}
+
+.faico li:last-child{margin-right:0;}
+
+.faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
+
+.faico a{color:inherit; background-color:rgba(255,255,255,.2);}
+
+.faico a:hover{color:#FFFFFF;}
+
+.faicon-dribble:hover{background-color:#EA4C89;}
+
+.faicon-facebook:hover{background-color:#3B5998;}
+
+.faicon-google-plus:hover{background-color:#DB4A39;}
+
+.faicon-linkedin:hover{background-color:#0E76A8;}
+
+.faicon-twitter:hover{background-color:#00ACEE;}
+
+.faicon-vk:hover{background-color:#4E658E;}
+
+.lftspace-35{margin-left:35px;}
+
+.lftspace-32{margin-left:22px;}
+
+/* .row0, .row0 a{}
+
+.row1, .row1 a{}
+
+.row2, .row2 a{}
+
+.row3, .row3 a{}
+
+.row4, .row4 a{}
+
+.row5, .row5 a{} */
+
+.one_half{display:inline-block; margin:0 0 0 4%; list-style:none;}
+
+.one_half{width:45%;}
+
+.first_part{ margin-left:50px;clear:left;}
+
+.divider{
+    margin-top: 4%;
+}

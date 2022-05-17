@@ -8,7 +8,8 @@
             <div class="row v-center">
                 <div class="header-item item-left">
                     <div class="logo">
-                        <a href="#">&nbsp;&nbsp;&nbsp;Rasad</a>
+                        <!-- <a href="#">&nbsp;&nbsp;&nbsp;Rasad</a> -->
+                        <a href="#"><img src="../../../assets/images/logo.svg"></a>
                     </div>
                 </div>
                 <!-- menu start here -->
@@ -33,7 +34,8 @@
                                             <div   *ngFor="let submenu of nav.menuItems">
                                                 <div *ngIf="submenu.id == '4' || submenu.id == '5' || submenu.id == '6' || submenu.id == '7'">
                                                     <div class="d-flex ">
-                                                        <li><a [routerLink]="nav.slug" > <img src="{{submenu.icon}}"> </a></li>
+                                                        <!-- <li><a [routerLink]="nav.slug" > <img src="{{submenu.icon}}"> </a></li> -->
+                                                        <li><a [routerLink]="nav.slug" innerHtml="{{submenu.icon}}">  </a></li>
                                                         <div>
                                                             <li><a [routerLink]="nav.slug"><i class=""></i><strong> {{submenu.label}}</strong></a></li>
                                                             <li style="font-size: 14px; opacity: 0.7; "><a [routerLink]="nav.slug"></a>{{submenu.description}}</li>
@@ -90,8 +92,8 @@
                 </div>
                 <!-- menu end here -->
                 <div class="header-item item-right d-flex">
-                    <a [routerLink]="">Sign in</a>
-                    <button class="btn btn-danger" [routerLink]="">Try it Now!</button>
+                    <a [routerLink]="" >Sign in</a>
+                    <button class="btn btn-danger" [routerLink]="" >Try it Now!</button>
 
                     <!-- mobile menu trigger -->
                     <div class="mobile-menu-trigger">
@@ -105,7 +107,7 @@
 <!-- header end -->
 
 <!-- banner start -->
-<section>
+<!-- <section>
     <div class="wave" >
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path
@@ -113,5 +115,7 @@
                 class="shape-fill"></path>
         </svg>
     </div>
-</section>
+</section> -->
+
+
 <!-- banner end -->

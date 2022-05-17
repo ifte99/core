@@ -1,0 +1,164 @@
+<section style="margin-top: 300px;">
+
+    <div class="wrapper row" >
+
+        <footer id="footer" class="hoc clear" >
+
+            <!-- ################################################################################################ -->
+
+            <div class="one_quinter first ">
+
+                <h1 class="heading "><img src="../../../../assets/images/foot.svg"></h1>
+
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+
+                    duis enim velit mollit.</p>
+
+                <div class="d-flex mt-4 pb-3 pr-3">
+
+                    <a style="padding-right:5px ;"><img src="../../../../assets/images/email.svg"></a>
+                    <label>info@rasad.com.sa</label>
+
+                </div>
+
+                <div class="d-flex pb-3 pr-3">
+
+                    <a style="padding-right:5px ;"><img src="../../../../assets/images/postal.svg"></a>
+                    <label>Postal code 62441</label>
+
+                </div>
+
+                <div class="divide d-flex pr-3" >
+
+                    <a style="padding-right:5px ;"><img src="../../../../assets/images/loc.svg"></a>
+                    <label>Riyadh</label>
+
+                </div>
+
+
+            </div>
+
+            <div class="one_quinter">
+
+                <div class="lftspace-32" *ngFor="let footer of footers">
+                    <div *ngIf="footer.id=='1'">
+                        <h1 class="heading"><strong>{{footer.title}}</strong></h1>
+                    </div>
+                    <!-- <h1 class="heading"><strong>Software</strong></h1> -->
+                </div>
+
+                <ul class="nospace linklist " *ngFor="let footer of footers" >
+
+                   <div *ngIf="footer.id == '5' || footer.id == '6' || footer.id == '7' || footer.id == '8'">
+                        <li><a style="text-decoration: none; color: black;" href="#">{{footer.label}}</a></li>
+                   </div>
+                  
+
+                </ul>
+
+
+
+            </div>
+
+            <div class="one_quinter">
+                <div class="lftspace-32" *ngFor="let footer of footers">
+                    <div *ngIf="footer.id=='2'">
+                        <h1 class="heading"><strong>{{footer.title}}</strong></h1>
+                    </div>
+                    
+                </div>
+
+                <ul class="nospace linklist " *ngFor="let footer of footers" >
+
+                   <div *ngIf="footer.id == '9' || footer.id == '10' || footer.id == '11' ">
+                        <li><a style="text-decoration: none; color: black;" href="#">{{footer.label}}</a></li>
+                   </div>
+                  
+
+                </ul>
+
+             
+
+            </div>
+
+            <div class="one_quinter">
+
+                <div class="lftspace-32" *ngFor="let footer of footers">
+                    <div *ngIf="footer.id=='3'">
+                        <h1 class="heading"><strong>{{footer.title}}</strong></h1>
+                    </div>
+                    
+                </div>
+
+                <ul class="nospace linklist " *ngFor="let footer of footers" >
+
+                   <div *ngIf="footer.id == '12' || footer.id == '13' || footer.id == '14' ">
+                        <li><a style="text-decoration: none; color: black;" href="#">{{footer.label}}</a></li>
+                   </div>
+                  
+
+                </ul>
+
+            </div>
+
+            <div class="one_quinter" >
+
+                <div class="lftspace-32" *ngFor="let footer of footers">
+                    <div *ngIf="footer.id=='4'">
+                        <h1 class="heading"><strong>{{footer.title}}</strong></h1>
+                    </div>
+                    
+                </div>
+
+                <ul class="nospace linklist " *ngFor="let footer of footers" >
+
+                   <div *ngIf="footer.id == '15' || footer.id == '16' || footer.id == '17' ">
+                        <li><a style="text-decoration: none; color: black;" href="#">{{footer.label}}</a></li>
+                   </div>
+                  
+
+                </ul>
+
+            </div>
+
+            <!-- ################################################################################################ -->
+
+
+
+        </footer>
+
+        <div >
+            <br>
+            <hr style="border: 1px solid #E4E4E7; width: 1296px; height: 0px;
+            left: 215px;
+            top: 402px; margin-left: 4%;">
+        </div>
+
+
+    </div>
+
+
+    <div class="wrapper row5 " style="margin-top: -80px ;">
+        <footer id="footer" class="hoc clear  ">
+            <div class="one_half first_part" style="margin-left: 5%;">
+                <label>© Copyright 2022, All Rights Reserved</label>
+            </div>
+            <div class="one_half" style=" padding-left: 3%;">
+                <ul class="faico clear" >
+                    <!-- <div *ngIf="footer.id == '1' || footer.id == '2' || footer.id == '3' || footer.id == '4'">
+                        <li><a style="text-decoration: none" class="faicon-twitter" href="#"><i>{{footer.icon}}</i></a></li>
+
+                    </div> -->
+                    <li><a style="text-decoration: none" class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a style="text-decoration: none" class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a style="text-decoration: none" class="faicon-google-plus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a style="text-decoration: none" class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+                    
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+
+</section>

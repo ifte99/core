@@ -7,7 +7,7 @@ export interface INav{
     slug: string | null | undefined;
     menuItems?:INav[],
     dropDownTarget: string | undefined,
-    isAdmin?: boolean;
+    isAdmin?: boolean | undefined;
 }
     
 export class Nav implements INav{

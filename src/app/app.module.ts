@@ -9,6 +9,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './component/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavigationComponent } from './component/navigation/navigation.component';
+import { FooterComponent } from './component/footer/footer/footer.component';
+import { TabComponent } from './component/tab/tab.component';
+import { ContactUsComponent } from './component/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { NavigationComponent } from './component/navigation/navigation.component
     FaqComponent,
     HomeComponent,
     NavigationComponent,
+    FooterComponent,
+    TabComponent,
+    ContactUsComponent,
     
     
   ],

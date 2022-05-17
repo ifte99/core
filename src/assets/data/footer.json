@@ -1,0 +1,163 @@
+[
+    {
+       "id": "1",
+       "title": "Software",
+       "email":"",
+       "icon": "<i class='fab fa-twitter'></i>",
+       "slug": null,
+       "label": ""
+   
+   
+      
+    },
+
+    {
+       "id": "2",
+       "title": "Other Links",
+       "email":"",
+       "icon": "<i class='fab fa-facebook'></i>",
+       "slug": null,
+       "label": ""
+
+    },
+
+    {
+        "id": "3",
+        "title": "Resources",
+        "email":"",
+        "icon": "<i class='fab fa-google-plus-g'></i>",
+        "slug": null,
+        "label": ""
+ 
+     },
+     {
+        "id": "4",
+        "title": "Extra Links",
+        "email":"",
+        "icon": "<i class='fab fa-linkedin'></i>",
+        "slug": null,
+        "label": ""
+ 
+     },
+     {
+      "id": "5",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Hr"
+
+   },
+   {
+      "id": "6",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "ERP"
+
+   },
+   {
+      "id": "7",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "SME"
+
+   },
+   {
+      "id": "8",
+      "title": "Extra Links",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "CRM"
+
+   },
+   {
+      "id": "9",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "E-Invoice"
+
+   },
+   {
+      "id": "10",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Accounting"
+
+   },
+   {
+      "id": "11",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Media Monitoring"
+
+   },
+   {
+      "id": "12",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Home"
+
+   },
+   {
+      "id": "13",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Products"
+
+   },
+   {
+      "id": "14",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Plan & Pricing"
+
+   },
+   {
+      "id": "15",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Contact Us"
+
+   },
+   {
+      "id": "16",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Terms & Conditions"
+
+   },
+   {
+      "id": "17",
+      "title": "",
+      "email":"",
+      "icon": "",
+      "slug": null,
+      "label": "Privacy Policy"
+
+   }
+     
+  
+
+    
+ ]
