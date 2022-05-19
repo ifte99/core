@@ -40,7 +40,7 @@ a{
 	z-index: 100;
 	padding:20px;
 	/* background: linear-gradient(90deg, #02208C 0%, #1F47D9 100%); */
-	background: #120fc5;
+	background: linear-gradient(90deg, #02208C 0%, #1F47D9 100%);
 }
 .header .item-left{
 	flex:0 0 33.33%;
@@ -186,30 +186,7 @@ a{
 .header .menu > ul > li:hover > a{
 	color:#ea4636;
 }
-/* banner section */
-.wave {
-    position: center;
-    top: 700;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.wave {
-    position: relative;
-    display: block;
-    width: calc(219% + 1.3px);
-	
-	
-    height: 1200px;
-    transform: rotateY(180deg);
-}
-
-.wave {
-    fill: #120fc5;
-	
-}
 .mobile-menu-head,
 .mobile-menu-trigger{
 	display: none;

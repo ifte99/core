@@ -1,6 +1,4 @@
-<header>
-
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
     <ul *ngFor="let nav of navs" class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -23,131 +21,245 @@
 
     </ul>
 
+    
+
   </nav>  -->
 
 
 
+<!-- <section>
+  <div class="wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="shape-fill"></path>
+    </svg>
+  </div>
+
+</section> -->
 
 
- <nav class="navbar navbar-expand-lg navbar-light sticky-top ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Rasad</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li *ngFor="let nav of navs" class="nav-item">
-                  <a class="nav-link active" *ngIf="!nav.isDropdown " aria-current="page" 
-                    routerLinkActive="active" >{{nav.label}}</a>
-             <div >
-                    <li class="nav-item dropdown" >
-                      <a class="nav-link dropdown-toggle"    id={{nav.dropDownTarget}} role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        {{nav.label}}
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <div *ngFor="let submenu of nav.menuItems">
-
-                          <li><a class="dropdown-item"   routerLinkActive="active">{{submenu.label}}</a></li>
-                          
-                        </div>
-
-                      </ul>
-                    </li>
-               </div>  
-            </li>
-
-
-      </ul>
+<section class="mb-5 hero">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-6 pt-2 " style="padding-left: 100px; ">
+          <h1 style="color: #FFFFFF;">Awesome & <br> powerfull landing <br> for your software <br> library</h1>
+          <p style="color: #FFFFFF;">All-in-one recruiting platform that helps you hire the<br>best candidate your mission needs.</p>
+          <button class="btn btn-danger"> <span style="color: #fff ;">Start 14 Days Trial</span> </button>
+      </div>
+      <div class="col-md-6 mb-5 " style="padding-right: 100px ;">
+        <img src="../../../assets/images/hero.svg" class="img-fluid" alt="Bootstrap Themes">
+      </div>
 
     </div>
+
+  </div>
+</section>
+
+
+<section class="official-partner">
+  <div class="container">
+    <div class="text-center">
+      <h3 class="official-partner-text">Our Official Partners</h3>
     </div>
-  </nav> 
 
-  
+    <div class="row mt-5">
+      <div class="col-md-2">
+        <img src="../../../assets/images/frameone.svg" class="img-fluid" alt="Bootstrap Themes">
+      </div>
+      <div class="col-md-2">
+        <img src="../../../assets/images/frametwo.svg" class="img-fluid" alt="Bootstrap Themes">
+      </div>
+      <div class="col-md-2">
+        <img src="../../../assets/images/framethree.svg" class="img-fluid" alt="Bootstrap Themes">
+      </div>
+      <div class="col-md-2">
+        <img src="../../../assets/images/framefour.svg" class="img-fluid" alt="Bootstrap Themes">
+      </div>
+      <div class="col-md-2">
+        <img src="../../../assets/images/framefive.svg" class="img-fluid" alt="Bootstrap Themes">
+      </div>
+      <div class="col-md-2">
+        <img src="../../../assets/images/framesix.svg" class="img-fluid" alt="Bootstrap Themes">
+      </div>
+    </div>
+  </div>
+</section>
 
-  
-
-
-
- <!-- <div class="APP">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-      <div class="container-fluid">
-      <a href="#" class="navbar-brand font-weight-bold d-block d-lg-none">MegaMenu</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav mx-auto">
-         
-          <li class="nav-item dropdown megamenu"><a id="megamneu" href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase dropdown-toggle">Mega Menu</a>
-            <div aria-labelledby="dropdownMenuButton1" class="dropdown-menu border-0 p-0 m-0">
-              <div class="container">
-                <div class="row bg-white rounded-0 m-0 shadow-sm">
-                  <div class="col-lg-7 col-xl-8">
-                    <div class="p-4">
-                      <div class="row">
-                        <div class="col-lg-6 mb-4">
-                          <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                          <ul class="list-unstyled">
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0">Unique Features</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                          <ul class="list-unstyled">
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                          <ul class="list-unstyled">
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-6 mb-4">
-                          <h6 class="font-weight-bold text-uppercase">MegaMenu heading</h6>
-                          <ul class="list-unstyled">
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Unique Features</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Image Responsive</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Auto Carousel</a></li>
-                            <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Newsletter Form</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block" style="background: center center url(https://therichpost.com/wp-content/uploads/2021/11/mega.png)no-repeat; background-size: cover;"></div><br>              </div>
-              </div>
+<section>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-6 mt-5 pt-5" style="padding-left: 100px; ">
+          <h5 style="color: #00BB98;"> ABOUT RASAD</h5>
+          <h1>The ultimate <br> Company & Business <br> Management Solution</h1>
+          <p>Automate & Manage your growing business <br> even better, your best platform for project <br> managment.</p>
+          <button class="btn btn-danger"> <span style="color: #fff ;">Get Started</span> </button>
+      </div>
+      <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 ">
+              <img src="../../../assets/images/team.svg" class="img-fluid" alt="Bootstrap Themes">
+              <img src="../../../assets/images/security.svg" class="img-fluid" alt="Bootstrap Themes">
             </div>
-          </li>
-          <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">About</a></li>
-          <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Services</a></li>
-          <li class="nav-item"><a href="" class="nav-link font-weight-bold text-uppercase">Contact</a></li>
-        </ul>
+            <div class="col-md-6  " style="padding-right: 20px;  padding-top: 125px;">
+              <img src="../../../assets/images/fast.svg" class="img-fluid" alt="Bootstrap Themes">
+            </div>
+
+          </div>
       </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="official-partner" style="background: #E5E5E5;">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-3 d-flex">
+        <img src="../../../assets/images/users.svg" class="img-fluid" alt="Bootstrap Themes">
+        <div class="mt-4 ms-5">
+          <h1>28k</h1>
+          <p>Users</p>
+        </div>
       </div>
-    </nav>
-    
-    
-  
+      <div class="col-md-3 d-flex">
+        <img src="../../../assets/images/downloads.svg" class="img-fluid" alt="Bootstrap Themes">
+        <div class="mt-4 ms-5">
+          <h1>13k</h1>
+          <p>Downloads</p>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex">
+        <img src="../../../assets/images/like.svg" class="img-fluid" alt="Bootstrap Themes">
+        <div class="mt-4 ms-5">
+          <h1>68k</h1>
+          <p>Likes</p>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex">
+        <img src="../../../assets/images/star.svg" class="img-fluid" alt="Bootstrap Themes">
+        <div class="mt-4 ms-5">
+          <h1>10k</h1>
+          <p>5 Star Rating</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+</section>
+
+
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div> -->
 
 
+<section class="testimonial-area" style="background: #E5E5E5;">
+  <div class="container mt-5">
+    <h3 class="text-center" style="color:#00BB98;">Testimonials</h3>
+    <h1 class="text-center mb-4">We are happy to share our<br> client’s review</h1>
+    <div class="row">
+      
+      <div class="col-md-6" >
+        <div class="single-testimonial">
+          <!-- <img src="../../../assets/images/testimonial-1.svg" alt=""> -->
+          
+          <p>OMG! I cannot believe that I have got a brand new landing page after getting appmax. It was super easy to edit and publish.I have got a brand new landing page.
+          </p>
+          <div class="testimonial-review">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+          </div>
+
+          <div class="d-flex justify-content-between ">
+            <div class=" d-flex">
+              <img src="../../../assets/images/fat.svg" class="img-fluid" alt="Bootstrap Themes">
+              <div class="mt-4 ms-4">
+                <h2>Kamal Ameen</h2>
+                <p>Freelance Designer</p>
+              </div>
+            </div>
+            <div class="mt-5">
+              <img src="../../../assets/images/Stars.svg">
+            </div>
+
+          </div>
+        
+          
+        </div>
+
+      </div>
+      <div class="col-md-6" >
+        <div class="single-testimonial">
+          <!-- <img src="../../../assets/images/testimonial-1.svg" alt=""> -->
+          
+          <p>OMG! I cannot believe that I have got a brand new landing page after getting appmax. It was super easy to edit and publish.I have got a brand new landing page.
+          </p>
+          <div class="testimonial-review">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+            <img src="../../../assets/images/icon/gold-star.svg" alt="">
+          </div>
+
+          <div class="d-flex justify-content-between ">
+            <div class=" d-flex">
+              <img src="../../../assets/images/slim.svg" class="img-fluid" alt="Bootstrap Themes">
+              <div class="mt-4 ms-4">
+                <h2>Jamil Saudi</h2>
+                <p>UI/UX Designer</p>
+              </div>
+            </div>
+            <div class="mt-5">
+              <img src="../../../assets/images/Stars.svg">
+            </div>
+
+          </div>
+        
+          
+        </div>
+
+      </div>
+      
+      
+    
+    </div>
+  </div>
+</section>
 
 
 
-</header>
