@@ -108,7 +108,7 @@
         text-align: center;
         border-radius: 50%;
         background-color: #1E46D7;
-;
+
         font-size: var(--size);
         --dimension: calc(1.5 * var(--size));
         width: var(--dimension);

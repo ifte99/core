@@ -62,3 +62,42 @@
     margin-right: 10px;
   }
   
+
+
+
+
+.card-flex{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+.card-align{
+
+position:center;
+
+}
+
+.image-alignment{
+
+position:relative;
+
+margin-left: 30%;
+
+margin-bottom: -5%;
+
+z-index: 99999;
+
+}
+ img {
+  max-width: 100%;
+  max-height: 100%;
+ }
+
+
+
+ 
